@@ -18,7 +18,15 @@ propietats:
         word-spacing
         letter-spacing
         writing-mode: vertical-lr
-        @font-face | src: url();
+
+        @font-face {
+          font-family: myFirstFont;
+          src: url(sansation_light.woff);
+        }
+
+        div {
+          font-family: myFirstFont;
+        }
 
 
     border/outline:
