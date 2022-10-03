@@ -1,0 +1,73 @@
+propietats:
+
+    color:
+        background-color
+        rgb 255,0,0
+        hexadecimal #000 #FFF
+
+    text:
+        font-size
+        font-family
+        text-align
+        text-decoration
+        text-transform: uppercase/capitalize
+
+    text2:
+        line-height
+        word-break
+        word-spacing
+        letter-spacing
+        writing-mode: vertical-lr
+        @font-face | src: url();
+
+
+    border/outline:
+        border: mida style color;
+        outline: mida style color;
+        border-radius
+        border-collapse
+
+    positioning:
+        absolute
+        relative
+        sticky
+        fixed (para el navbar)
+        z-index
+
+    viewport:
+        vh (viewport-height)
+        vw (viewport-width)
+        vmin
+        vmax
+
+    altura i amplada:
+        height
+        width
+        min-height/max-height
+        min-width/max-width
+        vertical-align: middle
+        horizontal-align:
+
+    display:
+        inline
+        inline-block
+        block
+
+    shadows:
+        text-shadow: h-shadow v-shadow blur-radius color;
+        box-shadow: h-shadow v-shadow blur-radius color;
+
+    navbar:
+        ul and li
+
+    ???:
+        box-sizing: border-box
+        overflow: scroll/hidden/auto
+        nav>div
+        .icona, .title
+
+
+
+mides:
+    px
+    em i rem
