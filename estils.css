@@ -2,7 +2,6 @@
     margin: 0;
 }
 
-
 body{
     background-color: black;
 
@@ -126,4 +125,17 @@ p{
     height: 50px;
     background-color: white;
 
+}
+
+.divB::first-letter{
+    font-size: 20px;
+    color: olive;
+}
+
+.divB::selection{
+    background-color: orangered;
+}
+
+.divB:active{
+    color: white;
 }

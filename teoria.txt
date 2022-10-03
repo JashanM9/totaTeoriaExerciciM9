@@ -74,6 +74,37 @@ propietats:
         nav>div
         .icona, .title
 
+    background:
+        background-image: url(""), url("");
+        background-size: cover;
+        background-clip: content-box;
+        background-position: right bottom, center;
+        background-repeat: no-repeat, no-repeat
+
+    pseudoelements:
+        ::first-letter{}
+        ::before{}
+        ::after{}
+        ::selection{}
+        ul>li::marker{color:red; content:'->';}
+
+
+    pseudoclasses:
+
+        <a> element:
+            :link
+            :visited
+            :hover
+            :active
+
+        <input> element:
+            :placeholder
+            :checked
+            :read-only vs :disabled
+            input[type=text]:empty{border: 2px solid red}
+
+        :nth-child(odd/even/2n+1)
+        :not
 
 
 mides:
